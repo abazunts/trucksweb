@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/trucksweb/static/css/main.561401bc.chunk.css",
+    "main.js": "/trucksweb/static/js/main.0e012ecc.chunk.js",
+    "main.js.map": "/trucksweb/static/js/main.0e012ecc.chunk.js.map",
+    "runtime~main.js": "/trucksweb/static/js/runtime~main.0a557f35.js",
+    "runtime~main.js.map": "/trucksweb/static/js/runtime~main.0a557f35.js.map",
+    "static/css/2.ff318fa6.chunk.css": "/trucksweb/static/css/2.ff318fa6.chunk.css",
+    "static/js/2.7241041f.chunk.js": "/trucksweb/static/js/2.7241041f.chunk.js",
+    "static/js/2.7241041f.chunk.js.map": "/trucksweb/static/js/2.7241041f.chunk.js.map",
+    "index.html": "/trucksweb/index.html",
+    "precache-manifest.9b9ddae809481a2246ba6c82f006bd98.js": "/trucksweb/precache-manifest.9b9ddae809481a2246ba6c82f006bd98.js",
+    "service-worker.js": "/trucksweb/service-worker.js",
+    "static/css/2.ff318fa6.chunk.css.map": "/trucksweb/static/css/2.ff318fa6.chunk.css.map",
+    "static/css/main.561401bc.chunk.css.map": "/trucksweb/static/css/main.561401bc.chunk.css.map",
+    "static/media/arrow.svg": "/trucksweb/static/media/arrow.27c2806c.svg",
+    "static/media/arrow_black.svg": "/trucksweb/static/media/arrow_black.1c1c954c.svg",
+    "static/media/driver.svg": "/trucksweb/static/media/driver.a81d0137.svg",
+    "static/media/logo.png": "/trucksweb/static/media/logo.3f908cd8.png",
+    "static/media/next_arrow.svg": "/trucksweb/static/media/next_arrow.d3baef83.svg",
+    "static/media/request.svg": "/trucksweb/static/media/request.e904a14d.svg",
+    "static/media/right-arrow.svg": "/trucksweb/static/media/right-arrow.04b81ea4.svg",
+    "static/media/site-logo.png": "/trucksweb/static/media/site-logo.75dc4e8f.png",
+    "static/media/truck.svg": "/trucksweb/static/media/truck.c6716a39.svg"
+  }
+}
