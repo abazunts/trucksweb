@@ -1,0 +1,26 @@
+.content-wrapper {
+    padding: 50px;
+}
+
+.content-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.page-title {
+    margin-bottom: 40px;
+    color: #3f4751;
+    font-size: 40px;
+}
+
+.content {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 40px;
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    background-color: #ffffff;
+}

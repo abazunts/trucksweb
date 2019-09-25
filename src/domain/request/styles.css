@@ -1,0 +1,71 @@
+.details-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details-row {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin: 8px 0;
+}
+
+.static-field {
+    display: flex;
+}
+
+.field-label {
+    font-weight: bold;
+    margin: 0 9px 0 0;
+}
+
+.button-container {
+    margin: 0px -40px 0;
+    padding: 20px 40px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    position: initial;
+    display: flex;
+    justify-content: space-between;
+    background: #f7f7f7;
+}
+
+.button-container:first-child {
+    position: initial;
+    background: #fff !important;
+    margin: -10px -40px 0;
+    padding: 0 40px 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    .details-row {
+      width: 100%;
+    }
+}
+
+.details-header {
+    margin-top: 25px;
+}
+
+.assign-modal {
+    min-height: 500px;
+}
+
+.confirm-alert {
+    text-align: center;
+    width: 500px;
+    padding: 40px;
+    background: #17a2b8;
+    box-shadow: 0 20px 75px rgba(0, 0, 0, 0.23);
+    color: #fff;
+}
+
+.confirm-alert button {
+        width: 160px;
+        padding: 10px;
+        border: 1px solid #fff;
+        margin: 10px;
+        cursor: pointer;
+        background: none;
+        color: #fff;
+        font-size: 14px;
+}

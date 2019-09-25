@@ -1,0 +1,43 @@
+.navbar {
+    border-top: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #f9f9f9;
+    border-bottom: 1px solid #f2f2f3;
+}
+
+.navbar-items {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.navbar-item {
+    padding: 13px;
+    border-radius: 3px;
+    color: #757575;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 88px;
+    padding: 5px 0;
+    margin: 0 10px;    
+}
+
+.navbar-items a:hover {
+    color: #573fa4;
+    background: #f3f7fa;
+}
+
+.navbar-icon {
+    width: 27px;
+    height: 27px;
+    margin: 9px;
+}
+
+.navbar > .active {
+    background-color: #fff;
+    color: #573fa4
+}

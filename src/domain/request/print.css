@@ -1,0 +1,105 @@
+@media screen {
+    #page {
+        visibility: hidden;
+    }
+}
+
+@media print {
+    html,
+    body {
+        border: 1px solid white;
+        height: 99%;
+        page-break-after: avoid;
+        page-break-before: avoid;
+    }
+    .navbar, .page-title, .logout, .lang, .content-wrapper {
+        display: none;
+    }
+    .main {
+        background: #fff;
+        min-height: 100%;
+    }
+    @page {
+        size: auto;
+        margin: 0mm;
+        padding: 5px !important;
+    }
+    #page,
+    #page * {
+        visibility: visible !important;
+    }
+    #page {
+        page-break-after: auto;
+        display: flex !important;
+        size: A4;
+        flex-direction: column;
+        margin: 10mm 17mm;
+    }
+    .print-header {
+        display: flex;
+        width: 100%;
+    }
+    .print-logo {
+        flex: 1;
+    }
+    .header-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 28px;
+        position: absolute;
+        top: 4mm;
+        right: 17mm;
+    }
+    .print-body {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .print-footer {
+        margin-left: -19mm;
+        width: 100%;
+        text-align: center;
+        line-height: 26px;
+        font-size: 11px;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 13px;
+    }
+    table {
+        border: 1px solid #3e619f;;
+        color: #777;
+        line-height: 1.6;
+        width: 100%;
+    }
+    th {
+        background-color: #3e619f;;
+        color: #fff;
+        text-align: left;
+        padding: 0.5em 1em;
+    }
+    td {
+        padding: 0.5em 1em;
+        border-left: 1px solid #3e619f;;
+        border-width: 0 0 0 1px;
+    }
+    .to-text {
+        margin: 10mm 0;
+        display: flex;
+        flex-flow: row;
+    }
+    .client-name {
+        flex: 1;
+    }
+    .summary {
+        display: flex;
+        justify-content: flex-end; 
+    }
+    .summary-table {
+        width: 40%;
+        margin-top: 12mm;
+    }
+    .summary-table td:first-child {
+        background: #3e619f;
+        color: #fff;
+        font-weight: bold;
+    }
+}

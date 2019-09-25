@@ -1,0 +1,91 @@
+.rt-th {
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+    color: rgba(77,99,124,64%);
+    border-right: none !important;
+  }
+
+  .rtl .rt-th {
+      text-align: right;
+  }
+  
+  .rt-td {
+    font-weight: bold;
+    color: #2A3746;
+    border-right: none !important;
+  }
+  
+  .rt-thead {
+    box-shadow: none !important;
+  }
+  
+  .rt-tr {
+    align-items: center;
+  }
+
+  .rt-tr:hover {
+    background: #fbfbfb;
+    cursor: pointer;
+}
+  
+  .ReactTable .rt-td:first-child {
+    white-space: normal;
+  }
+
+  .ReactTable {
+      border: none !important;
+  }
+  
+  .address-sub {
+    font-weight: 100;
+    color: #B2B2B2;
+    line-height: 25px;
+    font-size: 15px;
+  }
+  
+  .address-main {
+    display: block;
+  }
+  
+  .inline-image {
+    display: block;
+    padding: 0 15px;
+    pointer-events: none;
+    user-select: none;
+    text-align: center;
+  }
+
+  .rtl .inline-image {
+    transform: scaleX(-1);
+  }
+  
+  .action-button {
+    padding: 12px 9px 7px;
+    border-radius: 4px;
+    font-weight: 600;
+    min-width: 150px;
+    display: block;
+    line-height: 18px;
+    cursor: pointer;
+  }
+  
+  .action-button:focus {
+    outline: none;
+  }
+  
+  .action-button > ul > li:hover{
+    background-color: rgba(167,182,194,.3);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .default-btn {
+    background: #DBF3FF;
+    color: #0088FF;
+  }
+  
+  .danger-btn {
+    background: #FFDBDB;
+    color: #FF0000;
+  }
