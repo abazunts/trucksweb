@@ -6,6 +6,7 @@ import logo from '../../assets/icons/logo.png'
 import smallLogo from '../../assets/icons/logo.png'
 import siteLogo from '../../assets/icons/site-logo.png'
 import Navbar from '../Navbar/Navbar'
+import {NavLink} from "react-router-dom";
 
 class Header extends Component {
   state = {
@@ -70,6 +71,9 @@ class Header extends Component {
             <Navbar t={t} authUser={authUser} />
           : null
         }
+
+        <NavLink to={'/contracts'}>Contracts</NavLink>
+        <NavLink to={'/pricing'}>Contracts</NavLink>
       </div>
     )
   }
