@@ -2,7 +2,7 @@
   "name": "trucks-web",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:8080",
+  "homepage": "https://abazunts.github.io/trucksweb",
   "dependencies": {
     "axios": "^0.19.0",
     "babel-plugin-styled-components": "^1.8.0",
@@ -43,6 +43,8 @@
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
