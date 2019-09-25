@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6fcf76c69d0fa1133a2a01f821ef2f17",
+    "revision": "f9df0cad2ba2b54f8a45d7fb4cfcfca8",
     "url": "/trucksweb/index.html"
   },
   {
-    "revision": "77c1d91735b2ba9b1cba",
+    "revision": "ff412abd15b2678ee384",
     "url": "/trucksweb/static/css/2.ff318fa6.chunk.css"
   },
   {
-    "revision": "1cd6fa2fce1a4d9c3b59",
+    "revision": "1a972e78a84494b19039",
     "url": "/trucksweb/static/css/main.561401bc.chunk.css"
   },
   {
-    "revision": "77c1d91735b2ba9b1cba",
-    "url": "/trucksweb/static/js/2.7241041f.chunk.js"
+    "revision": "ff412abd15b2678ee384",
+    "url": "/trucksweb/static/js/2.bd32e0ff.chunk.js"
   },
   {
-    "revision": "1cd6fa2fce1a4d9c3b59",
-    "url": "/trucksweb/static/js/main.0e012ecc.chunk.js"
+    "revision": "1a972e78a84494b19039",
+    "url": "/trucksweb/static/js/main.c896067c.chunk.js"
   },
   {
     "revision": "876ab639530fbcb93f2d",
